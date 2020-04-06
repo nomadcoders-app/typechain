@@ -2,11 +2,17 @@
 
 Learning Typescript by making a Blockchain with it.
 
-Typescript = Javascript + Types
+>Typescript = Javascript + Types
+
+Typescript는 Type annotation을 통해 함수나 변수에 타입을 명시할 수 있다. 변수나 배열에 값을 담거나 함수를 호출할 때 의도되지 않은 다른 값이 들어가는 것을 방지한다.
+
+인터페이스가 추가되었고 클래스를 사용할 때 `public`, `private` 등을 명시해서 OOP의 의미를 더욱 명확히 할 수 있다.
 
 ## [tsconfig.json](https://typescript-kr.github.io/pages/tsconfig.json.html)
 
 Typescript가 Javascipt로 변환될 때의 규칙을 정의한다.
+
+`yarn start` 명령어를 통해 컴파일한다.
 
 ## 블록체인
 
