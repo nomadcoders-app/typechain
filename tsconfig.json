@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "sourceMap": true,
+    "outDir": "dist" // 컴파일된 파일이 dist 폴더에 저장된다.
+  },
+  "include": ["src/**/*"], // src 폴더에 typescript 파일을 저장한다.
+  "exclude": ["node_modules"]
+}
